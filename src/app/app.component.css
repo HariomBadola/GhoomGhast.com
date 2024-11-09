@@ -1,0 +1,38 @@
+/* Hero Section Styling */
+.hero {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scroll-left {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+/* Card Styling */
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+/* Moving Banner Styling */
+.launch-banner {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.launch-banner p {
+    
+    /* position: absolute; */
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+}
