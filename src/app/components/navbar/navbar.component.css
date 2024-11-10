@@ -1,0 +1,7 @@
+/* navbar.component.css */
+.nav-link.active {
+    font-weight: bold;
+    color: #ffdf00 !important; /* Adjust the color as needed */
+  }
+
+  
