@@ -4,4 +4,9 @@
     color: #ffdf00 !important; /* Adjust the color as needed */
   }
 
-  
+  .navbar-logo {
+    margin: 0px;
+   height: auto;
+   width: 15rem;
+    
+}

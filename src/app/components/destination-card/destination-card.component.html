@@ -1,0 +1,8 @@
+<div class="card-container">
+    <div class="card" *ngFor="let destination of destinations">
+      <h3 class="card-heading">{{ destination.name }}</h3>
+      <p class="card-description">{{ destination.description }}</p>
+      <button class="explore-button" (click)="explore(destination.name)">Explore More</button>
+    </div>
+  </div>
+  
